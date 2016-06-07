@@ -6,6 +6,8 @@ var nodePath = require('path');
 var nodeFs = require('fs');
 var util = require('lang-utils');
 
+var nodeUtil = require('util');
+
 module.exports = new astro.Middleware({
     modType: 'merge',
     fileType: ['js']
